@@ -8,7 +8,7 @@ public class Televisore extends Prodotto{
         this.isSmart = isSmart;
     }
 
-
+    @Override
     public double calcolaPrezzo(){
         double sovraprezzo = 0;
 

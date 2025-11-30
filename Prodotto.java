@@ -1,4 +1,4 @@
-public class Prodotto {
+public abstract class Prodotto {
     private String codice;
     private String modello;
     private double prezzoBase;
@@ -17,6 +17,8 @@ public class Prodotto {
         return prezzoBase;
     }
 
+
+    public abstract double calcolaPrezzo();
 
     @Override
     public String toString() {

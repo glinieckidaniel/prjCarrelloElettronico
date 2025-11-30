@@ -9,7 +9,7 @@ public class Televisore extends Prodotto{
     }
 
 
-    private double calcolaPrezzo(){
+    public double calcolaPrezzo(){
         double sovraprezzo = 0;
 
         if(isSmart==true){

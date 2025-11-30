@@ -8,7 +8,7 @@ public class SmartPhone extends Prodotto{
         this.isUsato = isUsato;
     }
 
-    private double calcolaPrezzo(){
+    public double calcolaPrezzo(){
         double prezzoConSconto = 0;
         if(isUsato==true){
            prezzoConSconto = super.getPrezzoBase() * 0.80;

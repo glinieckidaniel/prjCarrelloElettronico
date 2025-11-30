@@ -14,7 +14,7 @@ public class Carrello {
     public void stampaScontrino(){
         String t = "";
         for(Prodotto p : this.prodotti){
-            System.out.println(p);
+            System.out.println(p); + " | Prezzo finale : " + p.cal
         }
 
     }
